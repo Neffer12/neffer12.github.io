@@ -1,2 +1,1 @@
-Code review for the 3 artifacts:
-https://youtu.be/6IZMgcGRlms
+This is the [Code Review](https://youtu.be/6IZMgcGRlms) for the three artifacts displayed. 
