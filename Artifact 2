@@ -1,0 +1,32 @@
+import json
+from bson import json_util
+import bottle
+from bottle import route, run, get, request, abort, post
+from pymongo import MongoClient
+
+# connect to server
+connection = MongoClient('localhost', 27017)
+
+# select database
+db = connection['market']
+
+# select collection
+collection = db['stocks']
+
+
+# return top stocks summary of ten top stocks
+@route('/top_stocks', method='GET')
+def top_stocks_json():
+ try:
+  pipeline = [{"$match" : request.query},{"$sort" : {"Profit Margin" : -1}},{"$limit" : 10}]
+  sort_col = list(collection.aggregate(pipeline))
+  # place top 10 stocks inside dictionary
+  ret_dict = {}
+  cntr = 1
+  for i in sort_col:
+   ret_dict[cntr] = i
+   cntr = cntr + 1
+  # return dictionary to client 
+  return json.loads(json.dumps(ret_dict, indent=4, default=json_util.default))
+ except:
+  return json.loads(json.dumps("ERROR: Unable to complete query task\n", indent=4, default=json_util.default))
