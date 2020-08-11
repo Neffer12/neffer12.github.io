@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+Thank you to the SNHU Computer Science program, I have been able to learn a lot for the Computer Science field. When I first started in this program, I was not sure exactly what I was getting into. I knew about the basics of the field but did not know all that the field had to offer. With the program at SNHU, I was able to learn the basics for this field as well as help me with my concentration in software engineering.
 
-You can use the [editor on GitHub](https://github.com/Neffer12/neffer12.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I have been able to work with my peers in a team environment to help work on a jukebox application. With the use of version control I was able to create branches in the production of the code as well as being able to see what others have been able to create. This allowed me to learn how much this field requires a team environment. When working with stakeholders, you need to make sure that you work with them. You need to make sure you listen to them and lay down what you can do for these stakeholders. In the end you are working for the stakeholders and need to make sure that everything can be met in the timeframe given as well as creating the application that they are looking to be developed. I have been able to work with algorithms in code. This allowed me to be able to create different ways to look at data that was collected and to break it down and find the data that was being looked for. I have gotten experience in building mobile applications as well as creating devices with the use of Raspberry Pi. With these devices I have also been able to create databases using SQL and .json. When it comes to the security for this field, it is very important. When creating code or uploading data it is important to include security measures. This could be to keep personal data secure or to keep code up to data with changes.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Looking at the three artifacts that I have selected, I have been able to show my ability to work with different parts of the computer science field, in particular, artifacts that show my skill related to software engineering. The first artifact is showing my skill in software design and engineering. This artifact is used to show the light levels in a room. Depending on the level of light that the sensor picks up, the LED will be turned on. This device has three different LEDs that will turn on depending on the level of light. This device uses the Raspberry Pi device and Grove Pi sensor.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Neffer12/neffer12.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ The second artifact that I created was for algorithms and data structure. In this artifact, I created a python pipeline code. Before this code is to work you must connect to a local host using the database and collection that the data is located in. Then once the local host is activated the user picks a category. After selecting a category, it will show the top 10 stocks based on the data from that category. 
+ 
+My last artifact works with databases. In this artifact I am using a device created with the Raspberry Pi and Grove Pi sensors. This device is a weather station that collects the temperature and humidity with the humidity sensor. Then the data is sent to a .json file. This device also uses the LEDs from the Grove Pi, to light up showing the user the temperature and humidity. There are three LEDs in this device and depending on the temperature and humidity, a certain LED would turn on. This device is supposed to be ran without stopping. There is a timer on this device that will collect the data every 30 minutes, unless the light level is too low. Then when the light level is too low the device will let the user know.
